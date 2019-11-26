@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pylab as plt
 
-data = np.loadtxt("Datos.dat")
+data = np.loadtxt("datos.dat")
 
 plt.figure(figsize=(14,4))
 
