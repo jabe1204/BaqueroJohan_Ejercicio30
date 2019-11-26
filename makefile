@@ -4,8 +4,8 @@ evolve_A.png. : graficador.py datos.dat
 datos.dat : ejercicio.x
 	./ejercicio.x
 
-ejercicio.x : ejercicio30.cpp
-	c++ ejercicio30.cpp -o ejercicio.x
+ejercicio.x : ejercicio31.cpp
+	c++ ejercicio31.cpp -o ejercicio.x
 
 clean:
 	rm ejercicio.x *.dat evolve_A.png
